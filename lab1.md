@@ -5,3 +5,5 @@ To begin with, you will make your way to [VScode's Website](https://code.visuals
 Once installed, you should be able to open up the application that looks similair to do this image below.\
 ***Note:*** Your VSCode may look different compared to mine due to different settings in play!
 ![VSCode Opened](images/VScode_Launched.png)
+### Step 2: Remotely Connecting
+***Note:*** This is being done on Mac a Unix operating system. Therefore, Git won't be neeeded for instalation. (Windows Users Please Download the latest version of [Git](https://gitforwindows.org/))
