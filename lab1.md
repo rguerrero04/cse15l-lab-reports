@@ -4,4 +4,4 @@ To begin with, you will make your way to [VScode's Website](https://code.visuals
 ***Note:*** VScode has support for all major operating systems such as Mac and Windows!\
 Once installed, you should be able to open up the application that looks similair to do this image below.\
 ***Note:*** Your VSCode may look different compared to mine due to different settings in play!
-![VSCode Opened](VScode Launched.png)
+![VSCode Opened]()
