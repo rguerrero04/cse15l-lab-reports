@@ -7,7 +7,7 @@ Once installed, you should be able to open up the application that looks similai
 ![VSCode Opened](images/VScode_Launched.png)
 ### Step 2: Remotely Connecting
 ***Note:*** This is being done on Mac a Unix operating system. Therefore, Git won't be neeeded for instalation. (Windows Users Please Download the latest version of [Git](https://gitforwindows.org/))\
-You are going to want to use ==ssh==, but in order to do so we will have to open up a new terminal on VScode. (Ctrl or command + shift + ` or under the Terminal menu --> New Terminal). The command you will be using will look like this, but replace the **zz** with the letters in your course specific account.
+You are going to want to use <mark >ssh</mark>, but in order to do so we will have to open up a new terminal on VScode. (Ctrl or command + shift + ` or under the Terminal menu --> New Terminal). The command you will be using will look like this, but replace the **zz** with the letters in your course specific account.
 ```sh
 $ ssh cs15lsp23zz@ieng6.ucsd.edu
 ```
