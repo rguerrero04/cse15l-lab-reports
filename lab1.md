@@ -35,3 +35,4 @@ ieng6-203   14:35:01   12  0.00,  0.11,  0.18
 Fri Apr 07, 2023  2:37pm - Prepping cs15lsp23
 ```
 ### Step 3: Trying Some Commands
+Now lets try running some commands, we will be using <mark >cd</mark>, <mark >ls</mark>, <mark >pwd</mark>, <mark >mkdir</mark>, and <mark >cp</mark>.
