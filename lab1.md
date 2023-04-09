@@ -42,4 +42,7 @@ We may use more specific commands as so:
 * ls -lat
 * ls -a
 * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt 
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt\
+Once we try each command the results should look like so:\
+![2nd Results](images/Results_2.png)\
+You have finally learned how to log in on to your course specific account for ing6! Go ahead and try some commands and find new things for yourself!
