@@ -35,4 +35,11 @@ ieng6-203   14:35:01   12  0.00,  0.11,  0.18
 Fri Apr 07, 2023  2:37pm - Prepping cs15lsp23
 ```
 ### Step 3: Trying Some Commands
-Now lets try running some commands, we will be using <mark >cd</mark>, <mark >ls</mark>, <mark >pwd</mark>, <mark >mkdir</mark>, and <mark >cp</mark>.
+Now lets try running some commands, we will be using <mark >cd</mark>, <mark >ls</mark>, <mark >pwd</mark>, <mark >mkdir</mark>, and <mark >cp</mark>. When used without any operand after, the results will be as follows:\
+![Command Results](images/Results.png)\
+We may use more specific commands as so:
+* cd ~
+* ls -lat
+* ls -a
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt 
