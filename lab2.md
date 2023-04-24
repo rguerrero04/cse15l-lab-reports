@@ -42,6 +42,6 @@ javac Server.java StringServer.java
 java StringServer 5579
 Server Started! Visit http://localhost:5579
 ```
-**NOTE**: You may choose whatever port you desire.\
+***NOTE:*** You may choose whatever port you desire as long as it's between 1024 to 49151.\
 Visit http://localhost:5579 it should look like:
-![Website]
+![Website](images/Website-launched.png)
