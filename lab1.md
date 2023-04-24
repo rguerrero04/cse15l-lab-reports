@@ -38,11 +38,11 @@ Fri Apr 07, 2023  2:37pm - Prepping cs15lsp23
 Now lets try running some commands, we will be using <mark >cd</mark>, <mark >ls</mark>, <mark >pwd</mark>, <mark >mkdir</mark>, and <mark >cp</mark>. When used without any operand after, the results will be as follows:\
 ![Command Results](images/Results.png)\
 We may use more specific commands as so:
-* cd ~
-* ls -lat
-* ls -a
-* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt\
+* cd ~ <mark >allows you to move between directories</mark>
+* ls -lat <mark >a list of all the files and directories in the current directory, as well as hidden ones</mark>
+* ls -a <mark >shows all directories</mark>
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ <mark >Creates a copy of the file</mark>
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt\ <mark >Concatnates the file resuting the display of the text</mark>
 Once we try each command the results should look like so:\
 ![2nd Results](images/Results_2.png)\
 You have finally learned how to log in on to your course specific account for ing6! Go ahead and try some commands and find new things for yourself!
