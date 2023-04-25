@@ -44,4 +44,13 @@ Server Started! Visit http://localhost:5579
 ```
 ***NOTE:*** You may choose whatever port you desire as long as it's between 1024 to 49151.\
 Visit http://localhost:5579 it should look like:
-![Website](images/Website-launched.png)
+![Website](images/Website-launched.png)\
+Once on your website proceed to test the paths. Starting with ```/add-message?s=Hello ``` if done correctly it should look like so:
+![Hello](images/Hello.png)\
+Great! Now go ahead and try the other path ```/add-message?s=How are you``` if done correctly is should look like so:
+![Hello\n How are you](images/Hello-how-are-you.png)\
+Great! Now that you have seen how the program creates a new line for each query entered, go ahead and try some of your own with the path shown below:
+```
+/add-message?s=<string>
+```
+### Part 2
