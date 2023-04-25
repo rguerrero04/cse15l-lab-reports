@@ -54,3 +54,45 @@ Great! Now that you have seen how the program creates a new line for each query 
 /add-message?s=<string>
 ```
 ### Part 2
+Failure-inducing input:
+```java
+@Test
+  public void testReversedFail() {
+    int[] input1 = {2, 1};
+    assertArrayEquals(new int[]{1, 2}, ArrayExamples.reversed(input1));
+  }
+```
+Non Failure-inducing input:
+```java
+@Test
+  public void testReversedPass(){
+    int[] input3 = {  };
+    assertArrayEquals(new int[]{  }, ArrayExamples.reversed(input3));
+  }
+```
+Symptom:
+![Symptom](images/junit_test.png)\
+Before Code:
+```java
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i]=newArray[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+After Code:
+```java
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    return newArray;
+  }
+```
+Why it works:\
+This fix works since instead of swapping the indexes we are now focused on replacing them into the new array which was created in the begining of the program.
+### Part 3
+Something that I learned from Week 2's lab was how to create a webserver which could be usefull down the line in terms of applying them to proffessional standards. Being able to use java to create the server was something new as I use to create Minecraft servers off of the jar pack Minecraft provided on their official website without knowing exactly what it does.
