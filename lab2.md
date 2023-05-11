@@ -52,8 +52,10 @@ Great! Now that you have launched your server, go ahead and try some of your own
 ***Examples:***\
 Starting with ```/add-message?s=Hello ``` if done correctly it should look like so:
 ![Hello](images/Hello.png)\
+What this does is that it the method checks to make sure the query has been called and appends the string to a new line.\
 Great! Now go ahead and try the other path ```/add-message?s=How are you``` if done correctly is should look like so:
 ![Hello\n How are you](images/Hello-how-are-you.png)\
+What this calls in the method is by again checking the query and appending the string that was saved into the variable.\
 ### Part 2
 Failure-inducing input:
 ```java
@@ -94,6 +96,6 @@ static int[] reversed(int[] arr) {
   }
 ```
 Why it works:\
-This fix works since instead of swapping the indexes we are now focused on replacing them into the new array which was created in the begining of the program.
+This fix works since instead of swapping the indexes we are now focused on replacing them into the new array which was created in the begining of the program. The test fails since the code is trying to make the new array copy into the current element. The after passes since its the new array copying the element into the new reverse array.
 ### Part 3
 Something that I learned from Week 2's lab was how to create a webserver which could be usefull down the line in terms of applying them to proffessional standards. Being able to use java to create the server was something new as I use to create Minecraft servers off of the jar pack Minecraft provided on their official website without knowing exactly what it does.
